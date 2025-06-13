@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#4CAF50">
+        <title>Controle de Tanques</title>
+        <script src="js/js.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="relogio">00:00:00</h1>
+        </header>
+        <div class="container">
+            <main class="tanques">
+                <div class=tanque id="tanque1">
+                    <h1>TANQUE 1</h1>
+                    <div class="time">
+                        <label for="tempo_tratamento">TEMPO: </label>
+                        <select id="tempo_tratamento">
+                            <option value="0:10:00">10</option>
+                            <option value="0:20:00">20</option>
+                            <option value="0:30:00" selected>30</option>
+                            <option value="1:00:00">60</option>
+                            <option value="1:15:00">75</option>
+                            <option value="1:30:00">90</option>
+                            <option value="1:50:00">110</option>
+                        </select>
+                    </div>
+                    </label>
+                    <img src="imagens/tanque.jfif">
+                    <div class="horarios">
+                        <div class="tempo_inicial">
+                            <label for="i">INICIAL: </label>
+                            <input class="i" type="time" step="1">
+                        </div>
+                        <div class="tempo_final">
+                            <label for="t">FINAL: </label>
+                            <input class="t"type="time" step="1" disabled>
+                        </div>
+                    </div>
+                    
+                    <div class="butoes">
+                        <button class="iniciar">SALVAR</button>
+                        <button class="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+                <div class=tanque id="tanque2">
+                    <h1>TANQUE 2</h1>
+                    <div class="time">
+                        <label for="tempo_tratamento">TEMPO: </label>
+                        <select>
+                            <option value="0:10:00">10</option>
+                            <option value="0:20:00">20</option>
+                            <option value="0:30:00" selected>30</option>
+                            <option value="01:00:00:00">60</option>
+                            <option value="01:15:00:00">75</option>
+                            <option value="01:30:00:00">90</option>
+                            <option value="01:50:00:00">110</option>
+                        </select>
+                    </div>
+                    <img src="imagens/tanque.jfif">
+                    <div class="horarios">
+                        <div class="tempo_inicial">
+                            <label for="i">INICIAL: </label>
+                            <input class="i" step="1" type="time">
+                        </div>
+                        <div class="tempo_final">
+                            <label for="t">FINAL: </label>
+                            <input class="t"type="time" step="1" disabled>
+                        </div>
+                    </div>
+                    <div class="butoes">
+                        <button class="iniciar">SALVAR</button>
+                        <button class="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+                <div class=tanque id="tanque3">
+                    <h1>TANQUE 3</h1>
+                    <div class="time">
+                        <label for="tempo_tratamento">TEMPO: </label>
+                        <select>
+                            <option value="0:10:00">10</option>
+                            <option value="0:20:00">20</option>
+                            <option value="0:30:00" selected>30</option>
+                            <option value="01:00:00:00">60</option>
+                            <option value="01:15:00:00">75</option>
+                            <option value="01:30:00:00">90</option>
+                            <option value="01:50:00:00">110</option>
+                        </select>
+                    </div>
+                    <img src="imagens/tanque.jfif">
+                    <div class="horarios">
+                        <div class="tempo_inicial">
+                            <label for="i">INICIAL: </label>
+                            <input class="i" step="1" type="time">
+                        </div>
+                        <div class="tempo_final">
+                            <label for="t">FINAL: </label>
+                            <input class="t" type="time" step="1" disabled>
+                        </div>
+                    </div>
+                    <div class="butoes">
+                        <button class="iniciar">SALVAR</button>
+                        <button class="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+                <div class=tanque id="tanque4">
+                    <h1>TANQUE 4</h1>
+                    <div class="time">
+                        <label for="tempo_tratamento">TEMPO: </label>
+                        <select>
+                            <option value="0:10:00">10</option>
+                            <option value="0:20:00">20</option>
+                            <option value="0:30:00" selected>30</option>
+                            <option value="01:00:00:00">60</option>
+                            <option value="01:15:00:00">75</option>
+                            <option value="01:30:00:00">90</option>
+                            <option value="01:50:00:00">110</option>
+                        </select>
+                    </div>
+                    <img src="imagens/tanque.jfif">
+                    <div class="horarios">
+                        <div class="tempo_inicial">
+                            <label for="i">INICIAL: </label>
+                            <input class="i" type="time" step="1">
+                        </div>
+                        <div class="tempo_final">
+                            <label for="t">FINAL: </label>
+                            <input class="t"type="time"  step="1" disabled>
+                        </div>
+                    </div>
+                    <div class="butoes">
+                        <button class="iniciar">SALVAR</button>
+                        <button class="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+                <div class=tanque id="tanque5">
+                    <h1>TANQUE 5</h1>
+                    <div class="time">
+                        <label for="tempo_tratamento">TEMPO: </label>
+                        <select>
+                            <option value="0:10:00">10</option>
+                            <option value="0:20:00">20</option>
+                            <option value="0:30:00" selected>30</option>
+                            <option value="01:00:00:00">60</option>
+                            <option value="01:15:00:00">75</option>
+                            <option value="01:30:00:00">90</option>
+                            <option value="01:50:00:00">110</option>
+                        </select>
+                    </div>
+                    <img src="imagens/tanque.jfif">
+                    <div class="horarios">
+                        <div class="tempo_inicial">
+                            <label for="i">INICIAL: </label>
+                            <input class="i" type="time" step="1">
+                        </div>
+                        <div class="tempo_final">
+                            <label for="t">FINAL: </label>
+                            <input class="t"type="time" step="1" disabled>
+                        </div>
+                    </div>
+                    <div class="butoes">
+                        <button class="iniciar">SALVAR</button>
+                        <button class="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+                <div class=tanque id="tanque6">
+                    <h1>TANQUE 6</h1>
+                    <div class="time">
+                        <label for="tempo_tratamento">TEMPO: </label>
+                        <select>
+                            <option value="0:10:00">10</option>
+                            <option value="0:20:00">20</option>
+                            <option value="0:30:00" selected>30</option>
+                            <option value="01:00:00:00">60</option>
+                            <option value="01:15:00:00">75</option>
+                            <option value="01:30:00:00">90</option>
+                            <option value="01:50:00:00">110</option>
+                        </select>
+                    </div>
+                    <img src="imagens/tanque.jfif">
+                    <div class="horarios">
+                        <div class="tempo_inicial">
+                            <label for="i">INICIAL: </label>
+                            <input class="i" type="time" step="1">
+                        </div>
+                        <div class="tempo_final">
+                            <label for="t">FINAL: </label>
+                            <input class="t"type="time" step="1" disabled>
+                        </div>
+                    </div>
+                    <div class="butoes">
+                        <button class="iniciar">SALVAR</button>
+                        <button class="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+                <div class=tanque id="tanque7">
+                    <h1>TANQUE 7</h1>
+                    <div class="time">
+                        <label for="tempo_tratamento">TEMPO: </label>
+                        <select>
+                            <option value="0:10:00">10</option>
+                            <option value="0:20:00">20</option>
+                            <option value="0:30:00" selected>30</option>
+                            <option value="01:00:00:00">60</option>
+                            <option value="01:15:00:00">75</option>
+                            <option value="01:30:00:00">90</option>
+                            <option value="01:50:00:00">110</option>
+                        </select>
+                    </div>
+                    <img src="imagens/tanque.jfif">
+                    <div class="horarios">
+                        <div class="tempo_inicial">
+                            <label for="i">INICIAL: </label>
+                            <input class="i" type="time" step="1">
+                        </div>
+                        <div class="tempo_final">
+                            <label for="t">FINAL: </label>
+                            <input class="t"type="time" step="1" disabled>
+                        </div>
+                    </div>
+                    <div class="butoes">
+                        <button class="iniciar">SALVAR</button>
+                        <button class="cancelar">CANCELAR</button>
+                    </div>
+                </div>
+            </main>
+        </div> 
+    </body>
+</html>
